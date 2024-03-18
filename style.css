@@ -1,0 +1,183 @@
+
+body { 
+  margin: 0;
+  font-family: Georgia, serif;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #FFEB3B;
+  padding: 20px 10px;
+  font-family: Georgia, serif;
+  margin-bottom: 10px;
+}
+
+.wrap-logo {
+  display: flex;
+  align-items: center;
+ 
+}
+
+header a {
+  color: #212121;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header a:hover {
+  background-color: #FBC02D;
+  color: #212121;
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+footer {
+  background-color: #FFEB3B;
+  padding: 10px;
+}
+
+footer p {
+  background-color: #FBC02D;
+  text-align: center;
+  font-family: Georgia, serif;
+  color: #212121;
+  border-radius: 10px;
+  border: #212121;
+}
+body {
+  background-color: 	#FFEFD5;
+}
+
+h1 {
+  color: darkgoldenrod;
+  text-align: center;
+  font-family: Georgia, serif;
+}
+h2 {
+  color: goldenrod;
+  text-align: center; 
+  font-family: Georgia, serif;
+}
+
+p {
+  color: 	white;
+  text-align: center;
+  background-color: darkgoldenrod;
+  border: 2px solid black;
+  font-family: Georgia, serif;
+  padding: 5px;
+}
+
+li{
+  background-color: darkgoldenrod;
+  color: yellow;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+table{
+  margin: 0 auto;
+}
+
+.menu{
+  background-color: darkgoldenrod;
+  color: yellow;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border: 3px solid black;
+  height: 240px;
+  width: 500px; 
+}
+   
+   
+
+.picture {
+  text-align: center;
+  height: 25px;
+  width: 30px;  
+  border: none;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FFEB3B;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #FBC02D;
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+
+table {
+  background-color: #FFEB3B;
+
+  margin: 0 auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #FBC02D;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #000000;
+  color: white;
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+
+table {
+  background-color: darkgoldenrod;
+}
+
+caption {
+  font-family: "Rock Salt", cursive;
+  padding: 20px;
+  font-style: italic;
+  caption-side: bottom;
+  color: #666;
+  text-align: right;
+  letter-spacing: 1px;
+}
